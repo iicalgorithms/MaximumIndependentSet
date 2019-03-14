@@ -1,0 +1,12 @@
+The input includes four files:
+    ./$PATH_TO_GRAPH$/b_mis.bin stores the initial Maximum Independent Set.
+    ./$PATH_TO_GRAPH$/b_degree.bin stores the degree information of all vertices.
+    ./$PATH_TO_GRAPH$/b_adj.bin stores all the edges.
+    ./$pATH_TO_GRAPH$/b_core.bin (optional) stores the core of the graph.
+
+Here is one example of how edge list works.
+
+b_degree.bin -> 1 1 1  For vertex 0 1 2, each vertex has degree 1.
+b_adj.bin -> 2 0 1   There are three edges, 0->2, 1->0 and 2->1.
+
+b_degree.bin and b_adj.bin file is storing as binary file, not text file.
